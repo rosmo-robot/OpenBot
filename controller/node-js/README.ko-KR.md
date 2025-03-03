@@ -31,7 +31,7 @@
 
     node --version
 
-소프트웨어는 OpenBot 프로젝트의 ```/controller/node-js``` 디렉토리에 있습니다. [GitHub](https://github.com/isl-org/OpenBot)에서 코드를 다운로드한 후, 이 디렉토리로 이동하여 다음 명령어를 실행합니다:
+소프트웨어는 OpenBot 프로젝트의 ```/controller/node-js``` 디렉토리에 있습니다. [GitHub](https://github.com/ob-f/OpenBot)에서 코드를 다운로드한 후, 이 디렉토리로 이동하여 다음 명령어를 실행합니다:
 
     npm install
     npm start
@@ -56,7 +56,7 @@
 
 3. 또한, Node 서버는 포트 7071에서 WebSocket 서버를 생성합니다. 이 서버는 브라우저와 직접 통신하는 데 사용됩니다. 지금까지 요약하자면, 서버는 로봇과 브라우저를 위한 두 개의 소켓 연결을 생성했습니다.
 
-4. 사용자는 브라우저에서 키보드 명령을 입력합니다. 이 키 입력은 WebSocket을 통해 서버로 전송됩니다. 서버는 이를 로봇이 이해할 수 있는 명령으로 변환합니다. 예를 들어, ```{driveCmd: {r:0.4, l:0.34}}```와 같은 명령으로 변환됩니다 (모든 명령 목록은 안드로이드 컨트롤러 문서 [여기](https://github.com/isl-org/OpenBot/blob/master/docs/technical/OpenBotController.pdf)에서 확인할 수 있습니다). 이 명령은 소켓 연결을 통해 로봇으로 전송됩니다.
+4. 사용자는 브라우저에서 키보드 명령을 입력합니다. 이 키 입력은 WebSocket을 통해 서버로 전송됩니다. 서버는 이를 로봇이 이해할 수 있는 명령으로 변환합니다. 예를 들어, ```{driveCmd: {r:0.4, l:0.34}}```와 같은 명령으로 변환됩니다 (모든 명령 목록은 안드로이드 컨트롤러 문서 [여기](https://github.com/ob-f/OpenBot/blob/master/docs/technical/OpenBotController.pdf)에서 확인할 수 있습니다). 이 명령은 소켓 연결을 통해 로봇으로 전송됩니다.
 
 5. 로봇은 상태 정보를 소켓 연결을 통해 서버로 전송하고, 서버는 이를 UI로 전달합니다. UI는 이 정보를 사용하여 표시를 향상시킬 수 있지만, 현재 이 상태는 무시되고 있습니다.
 

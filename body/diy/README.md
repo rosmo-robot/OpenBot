@@ -55,7 +55,7 @@ You will also need a phone mount. Here are some options:
 
 - Phone Mount ([EU](https://www.amazon.de/dp/B06XDYJNSR), [US](https://www.amazon.com/dp/B09CY8MC2R))
 
-You can also get creative and build your own OpenBot chassis and phone mount using a material of your choice (e.g. wood, cardboard, styrofoam, etc.). If you do, please post some pictures on the [Slack channel](https://github.com/intel-isl/OpenBot#contact) so others can admire your creativity. Here is one example by [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636):
+You can also get creative and build your own OpenBot chassis and phone mount using a material of your choice (e.g. wood, cardboard, styrofoam, etc.). If you do, please post some pictures on the [Slack channel](https://github.com/ob-f/OpenBot#contact) so others can admire your creativity. Here is one example by [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636):
 
 <p float="left">
   <img src="../../docs/images/chassis_cardboard_1.jpg" width="32%" />

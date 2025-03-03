@@ -38,7 +38,7 @@ Le moyen le plus simple d'obtenir l'une des applications est de la télécharger
   </tr>
 </table>
 
-Alternativement, vous pouvez télécharger les fichiers apk depuis les assets de n'importe quelle [release](https://github.com/intel-isl/OpenBot/releases). Si vous souhaitez obtenir la dernière version de l'application à partir de la branche master, vous pouvez également la télécharger depuis les artefacts de build [ici](https://github.com/intel-isl/OpenBot/actions?query=workflow%3A%22Java+CI+with+Gradle%22). Notez qu'elle peut ne pas être stable. Si vous souhaitez apporter des modifications à l'application plus tard, suivez les étapes ci-dessous pour compiler l'application et la déployer sur votre téléphone.
+Alternativement, vous pouvez télécharger les fichiers apk depuis les assets de n'importe quelle [release](https://github.com/ob-f/OpenBot/releases). Si vous souhaitez obtenir la dernière version de l'application à partir de la branche master, vous pouvez également la télécharger depuis les artefacts de build [ici](https://github.com/ob-f/OpenBot/actions?query=workflow%3A%22Java+CI+with+Gradle%22). Notez qu'elle peut ne pas être stable. Si vous souhaitez apporter des modifications à l'application plus tard, suivez les étapes ci-dessous pour compiler l'application et la déployer sur votre téléphone.
 
 ## Compiler les applications
 

@@ -55,7 +55,7 @@
 
 - Phone Mount ([EU](https://www.amazon.de/dp/B06XDYJNSR), [US](https://www.amazon.com/dp/B09CY8MC2R))
 
-你也可以发挥创意，使用你选择的材料（例如木材、纸板、泡沫塑料等）构建自己的OpenBot底盘和手机支架。如果你这样做了，请在[Slack频道](https://github.com/intel-isl/OpenBot#contact)上发布一些照片，让其他人欣赏你的创意。以下是[@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636)的一个例子：
+你也可以发挥创意，使用你选择的材料（例如木材、纸板、泡沫塑料等）构建自己的OpenBot底盘和手机支架。如果你这样做了，请在[Slack频道](https://github.com/ob-f/OpenBot#contact)上发布一些照片，让其他人欣赏你的创意。以下是[@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636)的一个例子：
 
 <p float="left">
   <img src="../../docs/images/chassis_cardboard_1.jpg" width="32%" />

@@ -29,7 +29,7 @@
 
     node --version
 
-소프트웨어는 OpenBot 프로젝트의 ```/controller/web-server``` 디렉터리에 위치해 있습니다. [github](https://github.com/isl-org/OpenBot)에서 코드를 체크아웃한 후 이 디렉터리로 이동하여 다음 명령어들을 실행하세요:
+소프트웨어는 OpenBot 프로젝트의 ```/controller/web-server``` 디렉터리에 위치해 있습니다. [github](https://github.com/ob-f/OpenBot)에서 코드를 체크아웃한 후 이 디렉터리로 이동하여 다음 명령어들을 실행하세요:
 
     npm install
     npm start
@@ -66,7 +66,7 @@
 
     <img src="../../controller/web-server/images/web_server_video_streaming.gif" width="50%"/>
 
-4. 사용자는 브라우저에서 키보드 명령을 입력합니다. 이 키 입력은 WebSocket이나 WebRTC를 통해 서버로 전송됩니다. 서버는 이를 로봇이 이해할 수 있는 명령으로 변환하여 ```{driveCmd: {l:0.4, r:0.34}}``` (모든 명령 목록은 [여기](https://github.com/isl-org/OpenBot/blob/master/docs/technical/OpenBotController.pdf)에서 확인할 수 있습니다) 로봇에 전송합니다.
+4. 사용자는 브라우저에서 키보드 명령을 입력합니다. 이 키 입력은 WebSocket이나 WebRTC를 통해 서버로 전송됩니다. 서버는 이를 로봇이 이해할 수 있는 명령으로 변환하여 ```{driveCmd: {l:0.4, r:0.34}}``` (모든 명령 목록은 [여기](https://github.com/ob-f/OpenBot/blob/master/docs/technical/OpenBotController.pdf)에서 확인할 수 있습니다) 로봇에 전송합니다.
 
 5. WebSocket은 WebRTC 신호 대리자 역할을 하는 중요한 데이터 채널로 사용됩니다. WebRTC는 이 목적을 위해 기존 열린 소켓 연결을 효율적으로 활용하며, 추가적인 연결이나 설정이 필요하지 않습니다. 이 간소화된 접근 방식은 효율성을 높이고 원활한 실시간 통신을 위한 설정 요구 사항을 최소화합니다.
 

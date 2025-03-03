@@ -31,7 +31,7 @@
    git push --set-upstream origin <branch-name>
    ```
 
-6. GitHub에서 [풀 리퀘스트 요청](https://github.com/intel-isl/OpenBot/pulls)을 생성하고 이슈에 연결합니다. OpenBot 프로젝트의 "진행 중" 열에 나타나야 합니다.
+6. GitHub에서 [풀 리퀘스트 요청](https://github.com/ob-f/OpenBot/pulls)을 생성하고 이슈에 연결합니다. OpenBot 프로젝트의 "진행 중" 열에 나타나야 합니다.
 7. 받을 수 있는 코드 리뷰 피드백을 반영하여 포크한 저장소에 푸시합니다. 풀 요청은 자동으로 업데이트됩니다.
 8. 세상을 더 나은 곳으로 만들었다는 보상으로 원하는 음료를 마십니다.
 

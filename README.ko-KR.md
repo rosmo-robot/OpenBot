@@ -5,14 +5,14 @@
 <h1 align="center"><a>스마트폰을 로봇으로 변신시키기</a></h1>
 
 <p align="center">
-   <img alt="GitHub build" src="https://img.shields.io/github/actions/workflow/status/isl-org/OpenBot/gradle.yml?branch=master"></a>
-   <img alt="GitHub issues" src="https://img.shields.io/github/issues/isl-org/OpenBot"></a>
-   <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/isl-org/OpenBot"></a>
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/isl-org/OpenBot"></a>
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/isl-org/OpenBot"></a>
-   <img alt="Github downloads" src="https://img.shields.io/github/downloads/isl-org/OpenBot/total"></a>
-   <img alt="Github size" src="https://img.shields.io/github/repo-size/isl-org/OpenBot"></a>
-   <img alt="Github license" src="https://img.shields.io/github/license/isl-org/OpenBot"></a>
+   <img alt="GitHub build" src="https://img.shields.io/github/actions/workflow/status/ob-f/OpenBot/gradle.yml?branch=master"></a>
+   <img alt="GitHub issues" src="https://img.shields.io/github/issues/ob-f/OpenBot"></a>
+   <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/ob-f/OpenBot"></a>
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/ob-f/OpenBot"></a>
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/ob-f/OpenBot"></a>
+   <img alt="Github downloads" src="https://img.shields.io/github/downloads/ob-f/OpenBot/total"></a>
+   <img alt="Github size" src="https://img.shields.io/github/repo-size/ob-f/OpenBot"></a>
+   <img alt="Github license" src="https://img.shields.io/github/license/ob-f/OpenBot"></a>
 </p>
 
 <p align="center">
@@ -37,10 +37,10 @@ OpenBot은 스마트폰을 저렴한 로봇의 두뇌로 활용합니다. 약 50
 
 ## 소 스코드 다운로드
 
-- 저장소를 [zip 파일](https://github.com/intel-isl/OpenBot/archive/master.zip)로 다운로드하여 원하는 폴더에 압축을 풀 수 있습니다.
+- 저장소를 [zip 파일](https://github.com/ob-f/OpenBot/archive/master.zip)로 다운로드하여 원하는 폴더에 압축을 풀 수 있습니다.
 - 다음 명령어를 사용하여 GitHub에서 OpenBot 저장소를 복제할 수 있습니다:
     ```bash
-    git clone https://github.com/intel-isl/OpenBot.git
+    git clone https://github.com/ob-f/OpenBot.git
     ```
 - OpenBot 저장소를 포크한 다음 로컬 복사본을 복제할 수 있습니다. 특히 [기여](CONTRIBUTING.ko-KR.md)를 하려는 경우 이 방법을 권장합니다.
 ## 비디오
@@ -78,7 +78,7 @@ OpenBot은 스마트폰을 저렴한 로봇의 두뇌로 활용합니다. 약 50
 
 ## 기여
 
-[기여 가이드라인](CONTRIBUTING.ko-KR.md)을 읽어주세요. 어디서부터 시작해야 할지 잘 모르겠다면 [열린 이슈](https://github.com/intel-isl/OpenBot/issues)를 참조하세요.
+[기여 가이드라인](CONTRIBUTING.ko-KR.md)을 읽어주세요. 어디서부터 시작해야 할지 잘 모르겠다면 [열린 이슈](https://github.com/ob-f/OpenBot/issues)를 참조하세요.
 ## 인용
 
 OpenBot을 사용하는 경우 [논문](https://arxiv.org/abs/2008.10631)을 인용해 주세요.

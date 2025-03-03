@@ -9,7 +9,7 @@
   <span>한국어</span>
 </p>
 
-이 Python 프로그램은 무선 키보드로 로봇을 제어하고, 카메라로부터 비디오 스트림을 수신할 수 있게 해줍니다. 프로그램은 로봇의 전화와 동일한 네트워크에 연결된 컴퓨터에서 실행할 수 있습니다. Raspberry Pi 3와 MacBook에서 개발 및 테스트되었습니다. 아래의 단계를 따르기 전에 [소스 코드](https://github.com/isl-org/OpenBot#get-the-source-code)를 다운로드하고 `controller` 폴더로 이동하십시오.
+이 Python 프로그램은 무선 키보드로 로봇을 제어하고, 카메라로부터 비디오 스트림을 수신할 수 있게 해줍니다. 프로그램은 로봇의 전화와 동일한 네트워크에 연결된 컴퓨터에서 실행할 수 있습니다. Raspberry Pi 3와 MacBook에서 개발 및 테스트되었습니다. 아래의 단계를 따르기 전에 [소스 코드](https://github.com/ob-f/OpenBot#get-the-source-code)를 다운로드하고 `controller` 폴더로 이동하십시오.
 
 ## 의존성
 
