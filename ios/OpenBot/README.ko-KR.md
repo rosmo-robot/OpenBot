@@ -33,7 +33,7 @@
 
 #### 블루투스 연결
 
-안드로이드 앱은 스마트폰을 OpenBot의 저레벨 컨트롤 보드에 USB 케이블로 연결할 수 있는 반면, iOS 앱은 `오직` 블루투스 저에너지(BLE) 무선 연결만 사용해요. iOS 앱에서 블루투스 연결 화면을 열면(메인 화면이나 다른 화면에서 블루투스 로고를 클릭하면 돼요), 호환 가능한 모든 장치의 목록이 표시돼요. 여기서 호환성은 OpenBot 차량에 특정 UUID 범위를 할당해서 [앱](https://github.com/isl-org/OpenBot/blob/090dcb28206195a7ee45a13b8ded968a8d365abe/ios/OpenBot/OpenBot/Utils/Constants.swift#L57)과 [펌웨어](https://github.com/isl-org/OpenBot/blob/090dcb28206195a7ee45a13b8ded968a8d365abe/firmware/openbot_nano/openbot_nano.ino#L115) 수준에서 확인된답니다. 이 UUID들이 일치하는지 꼭 확인해야 해요!
+안드로이드 앱은 스마트폰을 OpenBot의 저레벨 컨트롤 보드에 USB 케이블로 연결할 수 있는 반면, iOS 앱은 `오직` 블루투스 저에너지(BLE) 무선 연결만 사용해요. iOS 앱에서 블루투스 연결 화면을 열면(메인 화면이나 다른 화면에서 블루투스 로고를 클릭하면 돼요), 호환 가능한 모든 장치의 목록이 표시돼요. 여기서 호환성은 OpenBot 차량에 특정 UUID 범위를 할당해서 [앱](https://github.com/ob-f/OpenBot/blob/090dcb28206195a7ee45a13b8ded968a8d365abe/ios/OpenBot/OpenBot/Utils/Constants.swift#L57)과 [펌웨어](https://github.com/ob-f/OpenBot/blob/090dcb28206195a7ee45a13b8ded968a8d365abe/firmware/openbot_nano/openbot_nano.ino#L115) 수준에서 확인된답니다. 이 UUID들이 일치하는지 꼭 확인해야 해요!
 
 iOS 기기를 OpenBot 차량과 연결하려면, 목록에서 차량을 선택하고 "Connect" 버튼을 누르기만 하면 돼요. 기본 전송 속도(baud rate)는 115200으로 설정되어 있지만, 앱과 펌웨어에서 변경할 수 있어요.
 

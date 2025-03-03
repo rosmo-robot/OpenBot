@@ -55,7 +55,7 @@ También necesitarás una montura para el teléfono. Aquí hay algunas opciones:
 
 - Montura para teléfono ([EU](https://www.amazon.de/dp/B06XDYJNSR), [US](https://www.amazon.com/dp/B09CY8MC2R))
 
-También puedes ser creativo y construir tu propio chasis y montura para el teléfono utilizando un material de tu elección (por ejemplo, madera, cartón, espuma de poliestireno, etc.). Si lo haces, por favor publica algunas fotos en el [canal de Slack](https://github.com/intel-isl/OpenBot#contact) para que otros puedan admirar tu creatividad. Aquí hay un ejemplo de [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636):
+También puedes ser creativo y construir tu propio chasis y montura para el teléfono utilizando un material de tu elección (por ejemplo, madera, cartón, espuma de poliestireno, etc.). Si lo haces, por favor publica algunas fotos en el [canal de Slack](https://github.com/ob-f/OpenBot#contact) para que otros puedan admirar tu creatividad. Aquí hay un ejemplo de [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636):
 
 <p float="left">
   <img src="../../docs/images/chassis_cardboard_1.jpg" width="32%" />

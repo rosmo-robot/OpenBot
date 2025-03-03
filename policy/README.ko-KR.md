@@ -127,7 +127,7 @@ pip install -r requirements_web.txt
 ### 참고 사항
 
 - 명령어를 실행하기 전에 환경을 활성화하는 것을 기억하세요: `conda activate openbot`
-- tensorflow를 가져올 수 없는 경우 `pip install tensorflow --user` 로 설치해보세요. ([문제](https://github.com/intel-isl/OpenBot/issues/98) 참고)
+- tensorflow를 가져올 수 없는 경우 `pip install tensorflow --user` 로 설치해보세요. ([문제](https://github.com/ob-f/OpenBot/issues/98) 참고)
 
 ## 데이터셋
 

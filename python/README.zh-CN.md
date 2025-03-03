@@ -93,7 +93,7 @@
 - 板： [Up Core Plus](https://up-board.org/upcoreplus/specifications/)
 - 摄像头： [Realsense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
 - 控制器： [Xbox One](https://www.microsoft.com/en-gb/store/collections/xboxcontrollers?source=lp)
-- Arduino： [OpenBot Firmware](https://github.com/isl-org/OpenBot/blob/master/firmware/README.md)
+- Arduino： [OpenBot Firmware](https://github.com/ob-f/OpenBot/blob/master/firmware/README.md)
 
 ## Python模块
 

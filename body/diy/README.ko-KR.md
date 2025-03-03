@@ -55,7 +55,7 @@ OpenBot을 만들기 위해 다음 부품들을 프린트하고 조립해야 해
 
 - Phone Mount ([EU](https://www.amazon.de/dp/B06XDYJNSR), [US](https://www.amazon.com/dp/B09CY8MC2R))
 
-창의력을 발휘해서 원하는 재료(예: 나무, 판지, 스티로폼 등)로 OpenBot 섀시와 전화 거치대를 직접 만들어볼 수도 있어요! 만약 그렇게 한다면, [Slack 채널](https://github.com/intel-isl/OpenBot#contact)에 사진을 올려주세요. 다른 사람들이 여러분의 멋진 창작물을 볼 수 있도록요! 아래는 [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636) 님이 만든 예시예요:
+창의력을 발휘해서 원하는 재료(예: 나무, 판지, 스티로폼 등)로 OpenBot 섀시와 전화 거치대를 직접 만들어볼 수도 있어요! 만약 그렇게 한다면, [Slack 채널](https://github.com/ob-f/OpenBot#contact)에 사진을 올려주세요. 다른 사람들이 여러분의 멋진 창작물을 볼 수 있도록요! 아래는 [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636) 님이 만든 예시예요:
 
 <p float="left">
   <img src="../../docs/images/chassis_cardboard_1.jpg" width="32%" />

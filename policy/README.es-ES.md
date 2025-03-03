@@ -126,7 +126,7 @@ Interfaz web:
 ### Notas
 
 - Recuerda activar el entorno antes de ejecutar comandos en la terminal: `conda activate openbot`
-- Si la importación de tensorflow no funciona, intenta instalarlo a través de `pip install tensorflow --user`. (Ver este [problema](https://github.com/intel-isl/OpenBot/issues/98).)
+- Si la importación de tensorflow no funciona, intenta instalarlo a través de `pip install tensorflow --user`. (Ver este [problema](https://github.com/ob-f/OpenBot/issues/98).)
 
 ## Conjunto de Datos
 

@@ -94,7 +94,7 @@ Currently, the code is tested on:
 - Board: [Up Core Plus](https://up-board.org/upcoreplus/specifications/)
 - Camera: [Realsense D435i](https://www.intelrealsense.com/depth-camera-d435i/)
 - Controller: [Xbox One](https://www.microsoft.com/en-gb/store/collections/xboxcontrollers?source=lp)
-- Arduino: [OpenBot Firmware](https://github.com/isl-org/OpenBot/blob/master/firmware/README.md)
+- Arduino: [OpenBot Firmware](https://github.com/ob-f/OpenBot/blob/master/firmware/README.md)
 
 ## Python modules
 

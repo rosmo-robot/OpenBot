@@ -55,7 +55,7 @@ Vous aurez également besoin d'un support de téléphone. Voici quelques options
 
 - Support de téléphone ([EU](https://www.amazon.de/dp/B06XDYJNSR), [US](https://www.amazon.com/dp/B09CY8MC2R))
 
-Vous pouvez également faire preuve de créativité et construire votre propre châssis OpenBot et support de téléphone en utilisant un matériau de votre choix (par exemple, bois, carton, polystyrène, etc.). Si vous le faites, veuillez poster des photos sur le [canal Slack](https://github.com/intel-isl/OpenBot#contact) pour que les autres puissent admirer votre créativité. Voici un exemple par [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636) :
+Vous pouvez également faire preuve de créativité et construire votre propre châssis OpenBot et support de téléphone en utilisant un matériau de votre choix (par exemple, bois, carton, polystyrène, etc.). Si vous le faites, veuillez poster des photos sur le [canal Slack](https://github.com/ob-f/OpenBot#contact) pour que les autres puissent admirer votre créativité. Voici un exemple par [@custom-build-robots](https://custom-build-robots.com/roboter/openbot-dein-smartphone-steuert-ein-roboter-auto-chassis-bauen/13636) :
 
 <p float="left">
   <img src="../../docs/images/chassis_cardboard_1.jpg" width="32%" />
