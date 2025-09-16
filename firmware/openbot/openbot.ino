@@ -251,7 +251,7 @@ const int PIN_PWM_R1 = 5;
 const int PIN_PWM_R2 = 6;
 const int PIN_SPEED_LF = 2;
 const int PIN_SPEED_RF = 3;
-const int PIN_VIN = A7;
+const int PIN_VIN = A2;
 const int PIN_TRIGGER = 4;
 const int PIN_ECHO = 4;
 const int PIN_LED_LI = 7;
@@ -326,7 +326,7 @@ const float ADC_FACTOR = 5.0 / 1023;
 #define SONAR_MEDIAN 0
 const int PIN_PWM_T = A0;
 const int PIN_PWM_S = A1;
-const int PIN_VIN = A7;
+const int PIN_VIN = A2;
 const int PIN_TRIGGER = 4;
 const int PIN_ECHO = 4;
 const int PIN_LED_LI = 7;
