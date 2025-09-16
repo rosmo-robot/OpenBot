@@ -48,6 +48,7 @@
 #define RTR_520 7    // Ready-to-Run with 520-motors
 #define MTV 8        // Multi Terrain Vehicle
 #define DIY_ESP32 9  // DIY without PCB
+#define FOUR_MOTOR_V1 10  // 4-Motor Version 1
 
 //------------------------------------------------------//
 // SETUP - Choose your body
@@ -56,10 +57,22 @@
 // Setup the OpenBot version (DIY, PCB_V1, PCB_V2, RTR_TT, RC_CAR, LITE, RTR_TT2, RTR_520, DIY_ESP32)
 #define OPENBOT DIY
 
+#define OPENBOT DIY // Placeholder for selected version
+OPENBOT == FOUR_MOTOR_V1
+#define USE_FOUR_MOTORS
+#endif
+#if OPENBOT == FOUR_MOTOR_V1
+#define USE_FOUR_MOTORS
+#endif
+
 //------------------------------------------------------//
 // SETTINGS - Global settings
 //------------------------------------------------------//
 
+#ifndef USE_FOUR_MOTORS
+MotorDriver motorDriver;
+#endif
+  
 // Enable/Disable no phone mode (1,0)
 // In no phone mode:
 // - the motors will turn at 75% speed
@@ -74,6 +87,68 @@
 // Enable/Disable coast mode (1,0)
 // When no control is applied, the robot will either coast (1) or actively stop (0)
 boolean coast_mode = 1;
+
+
+// ============================================================
+// 4-Motor Extension - Added by ROSMO (September 2025)
+// ============================================================
+
+// ============================================================
+#ifdef USE_FOUR_MOTORS
+#define MOTOR1_IN_A 21
+#define MOTOR1_IN_B 39
+#define MOTOR2_IN_A 16
+#define MOTOR2_IN_B 15
+#define MOTOR3_IN_A 8
+#define MOTOR3_IN_B 40
+#define MOTOR4_IN_A 1
+#define MOTOR4_IN_B 2
+
+#define MOTOR1_INV false
+#define MOTOR2_INV true
+#define MOTOR3_INV true
+#define MOTOR4_INV false
+
+#define PWM_BITS 10
+#define PWM_MAX ((1 << PWM_BITS) - 1)
+
+inline void setupMotorPins() {
+  pinMode(MOTOR1_IN_A, OUTPUT); pinMode(MOTOR1_IN_B, OUTPUT);
+  pinMode(MOTOR2_IN_A, OUTPUT); pinMode(MOTOR2_IN_B, OUTPUT);
+  pinMode(MOTOR3_IN_A, OUTPUT); pinMode(MOTOR3_IN_B, OUTPUT);
+  pinMode(MOTOR4_IN_A, OUTPUT); pinMode(MOTOR4_IN_B, OUTPUT);
+}
+
+inline void setMotor(int motorNum, int pwmValue) {
+  int inA, inB; bool inv = false;
+  switch (motorNum) {
+    case 1: inA = MOTOR1_IN_A; inB = MOTOR1_IN_B; inv = MOTOR1_INV; break;
+    case 2: inA = MOTOR2_IN_A; inB = MOTOR2_IN_B; inv = MOTOR2_INV; break;
+    case 3: inA = MOTOR3_IN_A; inB = MOTOR3_IN_B; inv = MOTOR3_INV; break;
+    case 4: inA = MOTOR4_IN_A; inB = MOTOR4_IN_B; inv = MOTOR4_INV; break;
+    default: return;
+  }
+  int speed = inv ? -pwmValue : pwmValue;
+  if (speed > 0) {
+    analogWrite(inA, constrain(speed, 0, PWM_MAX));
+    digitalWrite(inB, LOW);
+  } else if (speed < 0) {
+    analogWrite(inB, constrain(-speed, 0, PWM_MAX));
+    digitalWrite(inA, LOW);
+  } else {
+    digitalWrite(inA, LOW);
+    digitalWrite(inB, LOW);
+  }
+}
+
+inline void setMotorPower(int leftPwm, int rightPwm) {
+  setMotor(1, leftPwm);
+  setMotor(2, leftPwm);
+  setMotor(3, rightPwm);
+  setMotor(4, rightPwm);
+}
+#endif
+
 
 //------------------------------------------------------//
 // CONFIG - update if you have built the DIY version
@@ -930,6 +1005,15 @@ void setup() {
 //LOOP
 //------------------------------------------------------//
 void loop() {
+
+#ifdef USE_FOUR_MOTORS
+    setMotorPower(leftPwm, rightPwm);
+#else
+    motorDriver.setMotorPower(leftPwm, rightPwm);
+#endif
+  }
+}  
+  
 
 #if (HAS_BLUETOOTH)
   // disconnecting
