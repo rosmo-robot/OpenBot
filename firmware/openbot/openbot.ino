@@ -50,6 +50,7 @@
 #define DIY_ESP32 9  // DIY without PCB
 #define FOUR_MOTOR_V1 10  // 4-Motor Version 1
 
+
 //------------------------------------------------------//
 // SETUP - Choose your body
 //------------------------------------------------------//
@@ -57,10 +58,6 @@
 // Setup the OpenBot version (DIY, PCB_V1, PCB_V2, RTR_TT, RC_CAR, LITE, RTR_TT2, RTR_520, DIY_ESP32)
 #define OPENBOT DIY
 
-#define OPENBOT DIY // Placeholder for selected version
-OPENBOT == FOUR_MOTOR_V1
-#define USE_FOUR_MOTORS
-#endif
 #if OPENBOT == FOUR_MOTOR_V1
 #define USE_FOUR_MOTORS
 #endif
@@ -69,10 +66,6 @@ OPENBOT == FOUR_MOTOR_V1
 // SETTINGS - Global settings
 //------------------------------------------------------//
 
-#ifndef USE_FOUR_MOTORS
-MotorDriver motorDriver;
-#endif
-  
 // Enable/Disable no phone mode (1,0)
 // In no phone mode:
 // - the motors will turn at 75% speed
@@ -87,7 +80,6 @@ MotorDriver motorDriver;
 // Enable/Disable coast mode (1,0)
 // When no control is applied, the robot will either coast (1) or actively stop (0)
 boolean coast_mode = 1;
-
 
 // ============================================================
 // 4-Motor Extension - Added by ROSMO (September 2025)
@@ -148,6 +140,7 @@ inline void setMotorPower(int leftPwm, int rightPwm) {
   setMotor(4, rightPwm);
 }
 #endif
+
 
 
 //------------------------------------------------------//
@@ -1005,15 +998,6 @@ void setup() {
 //LOOP
 //------------------------------------------------------//
 void loop() {
-
-#ifdef USE_FOUR_MOTORS
-    setMotorPower(leftPwm, rightPwm);
-#else
-    motorDriver.setMotorPower(leftPwm, rightPwm);
-#endif
-  }
-}  
-  
 
 #if (HAS_BLUETOOTH)
   // disconnecting
